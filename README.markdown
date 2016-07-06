@@ -1,40 +1,29 @@
-# javascript-koans
-Based on Edgecase's fantastic 
-[Ruby koans](http://github.com/edgecase/ruby_koans), the goal of the
-Javascript koans is to teach you Javascript programming through
-testing.
+Get yo enlightenment on...
 
-When you first run the koans, you'll be presented with a runtime error and a
-stack trace indicating where the error occurred. Your goal is to make the
-error go away. As you fix each error, you should learn something about the
-Javascript language and functional programming in general.
+The javascript koans are your path to enlightenment in JavaScript. They are a great review into many of the concepts we have learned and will introduce you to unit tests in JavaScript.
 
-Your journey towards Javascript enlightenment starts in the koans/AboutExpects.js file. These
-koans will be very simple, so don't overthink them! As you progress through
-more koans, more and more Javascript syntax will be introduced which will allow
-you to solve more complicated problems and use more advanced techniques.
+## Learning Objectives
 
-## Running the Koans
-Simply navigate to the Javascript Koans folder using a file browser, and
-double click on KoansRunnner.html. 
+* Have a basic understanding of unit tests work
+* Show an understanding of, arrays, objects, functions, inheritance & higher order functions (functional style programming).
 
-Any browser will do, but for the best results Firefox or Chrome is
-recommended. More stack trace information shows up for javascript on these
-browsers.
+## Normal Mode
 
-The first error will be in koans/AboutExpects.js. Fix the first test and
-refresh the browser. Rinse and repeat until all tests turn green.
+1. Head over here & Fork the project
+2. Delete the existing gh-pages branch (do this on github)
+3. Clone down your fork of it
+4. Change the `KoansRunner.html` to `index.html` - so you can deploy it
+5. Open the test suite at `index.html`
+6. Make all 53 Koans pass - make sure there is 53 of them. <-- seriously... 53 of them!
+7. Make sure to commit after each section so you don't loose any work
 
-The test runner used is [Jasmine](http://jasmine.github.io/) with a customized report viewer.
+## Deliverables
 
-### Changelog
-*  v3 - Nov 2010  - Moved out of branch of functional-koans project, into own top level project
-*  v2 - Sept 2010 - Second version based on jasmine (Thanks Greg Malcolm!)
-*  v1 - July 2010 - First version based on jsTestDriver
+* A link to your koans repo with all of the 53 koans passing.
+* A link to your deployed `Surge.sh` page.
 
-### Acknowledgements
-*  Dick Wall (the Java posse) - for bringing the idea of koans to my attention
-*  Edgecase - for the great Ruby Koans
-*  Douglas Crockford - for Javascript; the good bits
+## Deploy
 
-### [MIT Licensed](LICENSE)
+* Type surge
+* Leave the project path as is... just hit "enter"
+    * Name it if you'd like, thought it doesn't matter too much
