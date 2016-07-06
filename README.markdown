@@ -1,3 +1,5 @@
+[GREEN HAMMER on SURGE!](http://green-hammer.surge.sh)
+
 Get yo enlightenment on...
 
 The javascript koans are your path to enlightenment in JavaScript. They are a great review into many of the concepts we have learned and will introduce you to unit tests in JavaScript.
